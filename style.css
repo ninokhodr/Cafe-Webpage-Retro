@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poiret One", sans-serif;
+  font-family: "Spirax", sans-serif;
+}
+
+nav {
+  position: fixed;
+  margin-top: 2rem;
+  top: 0;
+  width: 100%;
+  background-color: rgba(57, 1, 41, 0.8);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0.7rem;
+  font-size: 4rem;
+}
+
+nav ul li {
+  margin:0 4rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
