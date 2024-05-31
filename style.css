@@ -37,5 +37,13 @@ nav ul li a {
 }
 
 #hot {
-  background-image: url("assets/hot.jpg");
+  background-image: url("assets/hot.jpg"); 
+}
+
+#juicy {
+    background-image: url("assets/juicy.jpg");
+}
+
+#cosy {
+    background-image: url("assets/cosy.jpg");
 }
