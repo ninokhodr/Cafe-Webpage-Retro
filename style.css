@@ -19,7 +19,7 @@ nav.juicy {
     86,
     86,
     0.8
-  ); /* Green background for juicy class */
+  ); /* Red background for juicy class */
 }
 
 nav.cosy {
@@ -28,7 +28,7 @@ nav.cosy {
     255,
     128,
     0.8
-  ); /* Green background for juicy class */
+  ); /* Green background for cosy class */
 }
 
 nav ul {
