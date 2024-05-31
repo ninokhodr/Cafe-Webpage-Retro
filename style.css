@@ -13,6 +13,24 @@ nav {
   background-color: rgba(57, 1, 41, 0.8);
 }
 
+nav.juicy {
+  background-color: rgba(
+    255,
+    86,
+    86,
+    0.8
+  ); /* Green background for juicy class */
+}
+
+nav.cosy {
+  background-color: rgba(
+    93,
+    255,
+    128,
+    0.8
+  ); /* Green background for juicy class */
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -37,13 +55,13 @@ nav ul li a {
 }
 
 #hot {
-  background-image: url("assets/hot.jpg"); 
+  background-image: url("assets/hot.jpg");
 }
 
 #juicy {
-    background-image: url("assets/juicy.jpg");
+  background-image: url("assets/juicy.jpg");
 }
 
 #cosy {
-    background-image: url("assets/cosy.jpg");
+  background-image: url("assets/cosy.jpg");
 }
