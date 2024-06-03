@@ -113,7 +113,7 @@ nav ul li a {
 .menu {
   font-family: "Poiret One", sans-serif;
   position: absolute;
-  top: 38.5rem;
+  top: 35.5rem;
   left: 20rem;
   right: 30rem;
   background-color: rgba(0, 0, 0, 0.7);
@@ -140,13 +140,14 @@ nav ul li a {
 
 .section.cosy {
   background-image: url("assets/cosy.jpg");
+  margin: 0;
 }
 
 /* Media Queries for mobile responsiveness */
 @media (max-width: 768px) {
   nav ul {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 2rem;
   }
 
