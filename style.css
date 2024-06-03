@@ -156,13 +156,13 @@ nav ul li a {
   }
 
   .section h1 {
-    display: none;
+    top: 2rem;
   }
 
   .section p,
   .section.juicy p,
   .section.cosy p {
-    top: 15rem;
+    top: 17rem;
     left: 1rem;
     right: 1rem;
     font-size: 1.5rem;
