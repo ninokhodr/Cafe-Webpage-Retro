@@ -7,7 +7,6 @@ body {
 
 nav {
   position: fixed;
-  margin-top: 1rem;
   top: 0;
   width: 100%;
   background-color: rgba(57, 1, 41, 0.8);
@@ -46,6 +45,7 @@ nav ul li a {
 }
 
 .section {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +77,7 @@ nav ul li a {
 .sec.paragraph {
   font-family: "Poiret One", sans-serif;
   position: absolute;
-  top: 28.2rem;
+  top: 28.5rem;
   left: 28rem;
   right: 28rem;
   color: rgb(255, 255, 255);
@@ -85,6 +85,29 @@ nav ul li a {
   background-color: rgba(193, 6, 6, 0.8);
   padding: 0.5rem 1rem;
 }
+
+.section.juicy p {
+  left: 18rem;
+  right: 30rem;
+}
+
+.section.juicy .paragraph{
+  top: 28.5rem;
+  left: 23rem;
+  right: 23rem;
+}
+
+.section.cosy p {
+  left: 15rem;
+  right: 30rem;
+}
+
+.section.cosy .paragraph{
+  top: 28.5rem;
+  left: 25rem;
+  right: 22rem;
+}
+
 
 .menu {
   font-family: "Poiret One", sans-serif;
