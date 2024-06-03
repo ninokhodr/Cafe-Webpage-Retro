@@ -11,15 +11,11 @@ nav {
   top: 0;
   width: 100%;
   background-color: rgba(57, 1, 41, 0.8);
+  z-index: 1000;
 }
 
 nav.juicy {
-  background-color: rgba(
-    255,
-    86,
-    86,
-    0.8
-  ); /* Red background for juicy class */
+  background-color: rgba(255, 86, 86, 0.8); /* Red background for juicy class */
 }
 
 nav.cosy {
@@ -50,18 +46,74 @@ nav ul li a {
 }
 
 .section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   background-size: cover;
+  text-align: center;
 }
 
-#hot {
+.section h1 {
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(193, 6, 6);
+  font-size: 7rem;
+}
+
+.section p {
+  font-family: "Poiret One", sans-serif;
+  position: absolute;
+  top: 23.2rem;
+  left: 14.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  background-color: rgba(193, 6, 6, 0.8);
+  padding: 0.5rem 1rem;
+}
+
+.sec.paragraph {
+  font-family: "Poiret One", sans-serif;
+  position: absolute;
+  top: 28.2rem;
+  left: 28rem;
+  right: 28rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  background-color: rgba(193, 6, 6, 0.8);
+  padding: 0.5rem 1rem;
+}
+
+.menu {
+  font-family: "Poiret One", sans-serif;
+  position: absolute;
+  top: 35.5rem;
+  left: 20rem;
+  right: 30rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: white;
+}
+
+.section.hot {
   background-image: url("assets/hot.jpg");
 }
 
-#juicy {
+.section.juicy {
   background-image: url("assets/juicy.jpg");
 }
 
-#cosy {
+.section.cosy {
   background-image: url("assets/cosy.jpg");
 }

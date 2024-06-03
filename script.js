@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const juicySec = document.getElementById("juicy");
-  const cosySec = document.getElementById("cosy");
+  const juicySec = document.querySelector(".juicy");
+  const cosySec = document.querySelector(".cosy");
   const navBar = document.querySelector("nav");
 
   function updateNavColor() {
